@@ -14,7 +14,7 @@ puts piece.valid_moves == [[0, 2]]
 puts "2. Gets right moves for pawn"
 
 c = Board.new(false)
-c.place_piece(Pawn, [0,0], :white)
+c.place_piece(Pawn, [0,0], :black)
 piece = c[[0, 0]]
 puts piece.moves == [[1, 0], [2, 0]]
 
